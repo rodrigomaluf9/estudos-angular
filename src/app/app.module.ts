@@ -4,14 +4,16 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { DataBindingModule } from './data-binding/data-binding.module';
+
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
-  ],
+    BrowserModule,
+    DataBindingModule],
   providers: [],
   bootstrap: [AppComponent]
 })
