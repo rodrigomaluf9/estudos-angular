@@ -1,3 +1,4 @@
+import { ServicoService } from './servico.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,10 +9,11 @@ import { Component, OnInit } from '@angular/core';
 export class DataBindingComponent implements OnInit {
 
   iterpolacao: string;
-  lista: Array<string> = ['Angular','JavaScript'];
+  lista: Array<string>;
 
-  constructor() { 
+  constructor(private servico: ServicoService) { 
     this.iterpolacao = "Interpolação";
+    this.lista = this.servico.getLista();
   }
 
   ngOnInit() {

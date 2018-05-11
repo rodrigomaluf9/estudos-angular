@@ -1,3 +1,4 @@
+import { ServicoService } from './servico.service';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -11,6 +12,7 @@ import { DataBindingDetalheComponent } from './data-binding-detalhe/data-binding
   declarations: [DataBindingComponent,
     DataBindingDetalheComponent
   ],
-  exports: [DataBindingComponent]
+  exports: [DataBindingComponent],
+  providers:[ServicoService]
 })
 export class DataBindingModule { }
