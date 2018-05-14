@@ -5,6 +5,7 @@ import { CommonModule } from '@angular/common';
 import { DataBindingComponent } from './data-binding.component';
 import { DataBindingDetalheComponent } from './data-binding-detalhe/data-binding-detalhe.component';
 import { ClassBindingComponent } from './class-binding/class-binding.component';
+import { EventBindingComponent } from './event-binding/event-binding.component';
 
 @NgModule({
   imports: [
@@ -12,7 +13,8 @@ import { ClassBindingComponent } from './class-binding/class-binding.component';
   ],
   declarations: [DataBindingComponent,
     DataBindingDetalheComponent,
-    ClassBindingComponent
+    ClassBindingComponent,
+    EventBindingComponent
   ],
   exports: [DataBindingComponent],
   providers:[ServicoService]

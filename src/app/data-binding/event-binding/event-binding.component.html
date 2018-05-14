@@ -1,0 +1,18 @@
+<p>
+  <button (click)="botaoClicado()" class="btn btn-primary">Clica no botão....</button>
+</p>
+<p>
+  <input type="text" (keyup)="onKeyUp($event)" #campoInput (keyup.enter)="salvarValor(campoInput.value)" />
+</p>
+<p>Valor atual: {{ valorAtual }}</p>
+<p>Valor salvo: {{ valorSalvo }}</p>
+
+<p>
+  <span
+  (mouseover)="onMouseOverOut()"
+  (mouseout)="onMouseOverOut()"
+  [class.highlight]="isMouseOver"
+  >
+   Passe o mouse sobre mim
+  </span></p>
+
