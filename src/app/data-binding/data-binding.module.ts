@@ -1,8 +1,9 @@
-import { MeuFormModule } from './../meu-form/meu-form.module';
 import { ServicoService } from './servico.service';
 import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
+import { MeuFormModule } from './../meu-form/meu-form.module';
 
 import { DataBindingComponent } from './data-binding.component';
 import { DataBindingDetalheComponent } from './data-binding-detalhe/data-binding-detalhe.component';

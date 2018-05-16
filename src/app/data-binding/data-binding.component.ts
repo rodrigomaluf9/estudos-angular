@@ -11,9 +11,17 @@ export class DataBindingComponent implements OnInit {
   iterpolacao: string;
   lista: Array<string>;
 
+  nomeDoCurso: string = 'Angular';
+
+  valorInicial: number= 15;
+  
   constructor(private servico: ServicoService) { 
     this.iterpolacao = "Interpolação";
     this.lista = this.servico.getLista();
+  }
+
+  onMudouValor(evento){
+    console.log(evento.novoValor);
   }
 
   ngOnInit() {
