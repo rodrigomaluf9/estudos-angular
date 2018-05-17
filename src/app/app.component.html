@@ -1,4 +1,4 @@
-<!--The content below is only a placeholder and can be replaced.-->
+<!--The content below is only a placeholder and can be replaced.
 <div style="text-align:center">
   <h1>
     Welcome to {{ title }}!
@@ -22,3 +22,7 @@
 
 </ul>
 
+-->
+<app-ciclo [valorInicial]="valor" *ngIf="!deletarCiclo"></app-ciclo>
+<button class="btn btn-primary" (click)="mudarValor()">Mudar Valor</button>
+<button class="btn btn-primary" (click)="destruirClico()">Deletar</button>

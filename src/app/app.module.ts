@@ -6,11 +6,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import { DataBindingModule } from './data-binding/data-binding.module';
+import { CicloComponent } from './ciclo/ciclo.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CicloComponent
   ],
   imports: [
     BrowserModule,
