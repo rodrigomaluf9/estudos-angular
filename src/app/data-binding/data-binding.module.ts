@@ -10,6 +10,8 @@ import { DataBindingDetalheComponent } from './data-binding-detalhe/data-binding
 import { ClassBindingComponent } from './class-binding/class-binding.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+import { InputPropertyComponent } from '../input-property/input-property.component';
+import { OutputPropertyComponent } from '../output-property/output-property.component';
 
 @NgModule({
   imports: [
@@ -22,7 +24,9 @@ import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.compon
     DataBindingDetalheComponent,
     ClassBindingComponent,
     EventBindingComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    InputPropertyComponent,
+    OutputPropertyComponent
   ],
   exports: [DataBindingComponent],
   providers:[ServicoService]

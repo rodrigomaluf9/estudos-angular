@@ -1,7 +1,7 @@
 import { Component, OnInit, ElementRef, Input, Output, ViewChild, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'app-output-property',
+  selector: 'contador',
   templateUrl: './output-property.component.html',
   styleUrls: ['./output-property.component.css']
 })
