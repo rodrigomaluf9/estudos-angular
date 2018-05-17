@@ -7,9 +7,10 @@ import { MeuFormComponent } from './meu-form.component';
   imports: [
     CommonModule,
     FormsModule
-
   ],
-  declarations: [MeuFormComponent],
-  exports:[MeuFormComponent]
+  declarations: [
+    MeuFormComponent
+  ],
+  exports: [MeuFormComponent]
 })
 export class MeuFormModule { }

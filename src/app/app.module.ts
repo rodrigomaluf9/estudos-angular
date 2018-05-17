@@ -1,3 +1,4 @@
+import { MeuFormModule } from './meu-form/meu-form.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -17,7 +18,9 @@ import { OutputPropertyComponent } from './output-property/output-property.compo
   ],
   imports: [
     BrowserModule,
-    DataBindingModule],
+    DataBindingModule,
+    MeuFormModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

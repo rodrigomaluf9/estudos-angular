@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'contador',
+  selector: 'app-meu-form',
   templateUrl: './meu-form.component.html',
   styleUrls: ['./meu-form.component.css']
 })
