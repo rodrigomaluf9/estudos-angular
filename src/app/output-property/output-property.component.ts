@@ -14,7 +14,7 @@ export class OutputPropertyComponent implements OnInit {
   @ViewChild('campoInput') campoValorInput: ElementRef; 
 
   incrementa(){
-    this.valor++;
+    console.log(this.campoValorInput.nativeElement.value);
     this.campoValorInput.nativeElement.value++;
     this.mudouValor.emit({novoValor: this.valor});
   }
