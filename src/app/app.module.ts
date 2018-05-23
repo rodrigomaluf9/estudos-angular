@@ -7,12 +7,26 @@ import { AppComponent } from './app.component';
 
 import { DataBindingModule } from './data-binding/data-binding.module';
 import { CicloComponent } from './ciclo/ciclo.component';
+import { DiretivaNgifComponent } from './diretiva-ngif/diretiva-ngif.component';
+import { DiretivaNgswitchComponent } from './diretiva-ngswitch/diretiva-ngswitch.component';
+import { DiretivaNgclassComponent } from './diretiva-ngclass/diretiva-ngclass.component';
+import { DiretivaNgstyleComponent } from './diretiva-ngstyle/diretiva-ngstyle.component';
+import { OperadorElvisComponent } from './operador-elvis/operador-elvis.component';
+import { FundoAmareloDirective } from './shared/fundo-amarelo.directive';
+import { DiretivasCustomizadasComponent } from './diretivas-customizadas/diretivas-customizadas.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CicloComponent
+    CicloComponent,
+    DiretivaNgifComponent,
+    DiretivaNgswitchComponent,
+    DiretivaNgclassComponent,
+    DiretivaNgstyleComponent,
+    OperadorElvisComponent,
+    FundoAmareloDirective,
+    DiretivasCustomizadasComponent
   ],
   imports: [
     BrowserModule,
